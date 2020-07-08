@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:id="@+id/appwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="#09C"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:contentDescription="Emergency"
+        android:text="Emergency"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:onClick="submit"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

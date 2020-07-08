@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.staysafe.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Edit Contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="WhatsApp Share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hos"
+        android:orderInCategory="100"
+        android:title="Nearby Hospitals"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_pol"
+        android:orderInCategory="100"
+        android:title="Nearby Police Stations"
+        app:showAsAction="never"/>
+
+
+</menu>
